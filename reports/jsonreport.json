@@ -1,0 +1,202 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2578947100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.webdriverinitialization()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "scenario4",
+        "description": "",
+        "id": "search-functionality;scenario4;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 751166300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.closingdriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1114930900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the search page",
+            "match": {
+              "location": "stepdefinationclass.user_is_on_the_search_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 14594900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user write \"IBM\" in \"sampledata\", \"value2\" box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "IBM",
+                  "offset": 12
+                },
+                {
+                  "val": "sampledata",
+                  "offset": 21
+                },
+                {
+                  "val": "value2",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefinationclass.user_write_in_box(String,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6475800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click on seach button",
+            "match": {
+              "location": "stepdefinationclass.click_on_seach_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7005400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "results \"value3\" be displayed",
+            "match": {
+              "arguments": [
+                {
+                  "val": "value3",
+                  "offset": 9
+                }
+              ],
+              "location": "stepdefinationclass.results_be_displayed(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Sanity"
+          },
+          {
+            "line": 1,
+            "name": "@Featuretag"
+          },
+          {
+            "line": 5,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1201757500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.webdriverinitialization()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "scenario2",
+        "description": "",
+        "id": "search-functionality;scenario2",
+        "after": [
+          {
+            "result": {
+              "duration": 724832800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.closingdriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10451500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "click on seach button",
+            "match": {
+              "location": "stepdefinationclass.click_on_seach_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101600,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "results should be displayed",
+            "match": {
+              "location": "stepdefinationclass.results_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality",
+    "description": "",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "google.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Featuretag"
+      }
+    ]
+  }
+]

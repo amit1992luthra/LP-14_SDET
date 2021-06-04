@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="6.410263">
+<testcase classname="Search functionality" name="scenario4" time="4.47312">
+<system-out><![CDATA[Given User is on the search page............................................passed
+When user write "IBM" in "sampledata", "value2" box.........................passed
+And click on seach button...................................................passed
+Then results "value3" be displayed..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search functionality" name="scenario2" time="1.937143">
+<system-out><![CDATA[And click on seach button...................................................passed
+Then results should be displayed............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
